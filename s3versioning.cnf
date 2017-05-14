@@ -1,0 +1,6 @@
+[connect]
+access = my-access-key
+secret = my-secret-key
+host = 192.168.178.20
+port = 80
+is_secure = false
