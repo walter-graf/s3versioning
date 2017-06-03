@@ -5,7 +5,7 @@ how the **S3 versioning** capability can be used to protect S3 object data
 against accidental deletion and corruption.
 
 It can be complemented by a fault tolerant and highly available or
-even disaster resilient S3 platform like **Ceph** (in this concret case
+even disaster resilient S3 platform like **Ceph** (in this concrete case
 Ceph works as a private cloud alternative to Amazon). 
 The toolset has in fact been tested on a Ceph platform.
 
