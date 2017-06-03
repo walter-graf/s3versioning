@@ -1,4 +1,4 @@
-#s3versioning
+# s3versioning
 
 This repo contains a toolset of small Python programs that demonstrate
 how the **S3 versioning** capability can be used to protect S3 object data
