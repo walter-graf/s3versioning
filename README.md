@@ -14,14 +14,14 @@ form a full end to end data protection platform that makes traditional
 backup obsolete.
 
 The toolset in its current form allows
-- to make versioned buuckets
+- to make versioned buckets
 - to turn on versioning for existing buckets
-- to list object versions that meet various criteria to narrow down the 
+- to list object versions meeting various criteria to narrow down the 
 search for deleted and corrupted objects
 - to remove object versions based on a previously generated list with the
-goal to get rid of corrupted object versions or undelete accidently
+goal to get rid of corrupted object versions or to undelete accidently
 deleted objects
-- to perform housekeeping tasks like to limit the maximum number of
+- to perform housekeeping tasks like limiting the maximum number of
 versions kept in the S3 archive
 - and more ...
 
@@ -38,6 +38,6 @@ markers) is not suitable for millions of objects. A performant database
 could be the alternative
 - the toolset does only deal with limited meta data like timestamps but does
 not (yet) allow user defined metadata as search criteria
-- additional security measures could be considered to before applying
+- additional security measures could be considered before applying
 critical and irreversible delete operations
 - no long term testing has been performed on the toolset
